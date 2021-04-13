@@ -11,8 +11,10 @@ const GlobalStyle = createGlobalStyle`
 :root{
 --white:#fff;
 --background:#d8e3e7;
---footer:#126e82;
+--footer:black;
+--header:black;
 --title:#aaaaaa;
+--text:orange;
 }
 @media(max-width:1888px){
 html{
