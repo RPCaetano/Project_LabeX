@@ -9,8 +9,9 @@ function App() {
   return (
     <BrowserRouter>
      <GlobalStyle />
-     <HomePage/>
+     
      <Header/>
+     <HomePage/>
      <Footer/>
     </BrowserRouter>
   );
