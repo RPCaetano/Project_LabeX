@@ -19,10 +19,10 @@ function Header() {
         <div id="bar3" class="bar"></div>
       </div>
       <ul class='nav' id='nav'>
-      <li><a><Link to={'/mission'}>Nossa Missão</Link></a></li>
-      <li><a><Link to={'/inscricao'}>Quero me candidatar</Link></a></li>
-      <li><a><Link to={'/login'}>Login Administrador</Link></a></li>
-      <li><a><Link to={'/'}>Home</Link></a></li>
+      <li><Link to={'/mission'}>Nossa Missão</Link></li>
+      <li><Link to={'/inscricao'}>Quero me candidatar</Link></li>
+      <li><Link to={'/login'}>Login Administrador</Link></li>
+      <li><Link to={'/'}>Home</Link></li>
    
       </ul>
     </div>
