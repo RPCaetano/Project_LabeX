@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import HomePage from "./pages/HomePage";
+import Routes from "./router/Routes";
 import GlobalStyle from "./styled/globalStyled";
 
 
@@ -9,9 +9,8 @@ function App() {
   return (
     <BrowserRouter>
      <GlobalStyle />
-     
      <Header/>
-     <HomePage/>
+     <Routes/>
      <Footer/>
     </BrowserRouter>
   );

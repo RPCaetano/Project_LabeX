@@ -5,9 +5,9 @@ function HomePage() {
   return (
     <S.Container>
 
-
+HOME PAGE
 <S.CardTrip>
-<p>AQUI VAI CARDS DE VIAGENS</p>
+
 </S.CardTrip>
 
     </S.Container>
