@@ -5,16 +5,17 @@ export const Container = styled.div`
   flex-direction:column;
   padding:16px;
   margin:20px;
+
   h1{
       text-align: center;
   }
   img{
       
-      width:30px;
-      height:30px;
+      width:25px;
+      height:25px;
       &:hover{
-          width:40px;
-          height:40px;
+          width:25px;
+          height:25px;
         }
   }
   button{
@@ -32,5 +33,7 @@ export const Container = styled.div`
           color:var(--text);  
           background-color:orangered;
 }
-  
+  p{
+    color:var(--text);
+  }
 `;

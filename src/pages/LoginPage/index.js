@@ -1,11 +1,12 @@
 import React from 'react';
+import PageTitle from '../../components/PageTitle';
 import styles from '../LoginPage/styles.css'
 
 function LoginPage() {
   return (
     <section class="form-section">
-      <h1>Área do administrador</h1>
-
+      <PageTitle title={'Area do administrador'}/>
+     
       <div class="form-wrapper">
         <form action="">
           <div class="input-block">

@@ -1,12 +1,19 @@
 import React from 'react';
+import PageTitle from '../../components/PageTitle';
+import CandidatesList from './CandidatesList';
+import TripInfo from './TripInfo';
+import * as S from './styles'
 
-// import { Container } from './styles';
 
 function TripDetailPage() {
   return (
-      <>
-      DETAIL TRIP
-      </>
+    <>
+      <PageTitle title={'Detalhes da viagem'}/>
+      <S.Container>
+  <TripInfo/>
+  <CandidatesList/>    
+    </S.Container>
+    </>
   );
 }
 
