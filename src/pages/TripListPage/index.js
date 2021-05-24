@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import lupa from "../../../src/assets/lupa.png";
 import detail from "../../../src/assets/detail.png";
 import * as S from "./styles";
 import PageTitle from "../../components/PageTitle";

@@ -17,10 +17,12 @@ export const Card = styled.div`
     cursor:pointer;
      & :hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+    
   }
   img{
-   width:50px;
-   height:50px;
+   width:18px;
+   height:18px;
+   
  } `;
   
 
