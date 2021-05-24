@@ -1,14 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import * as S from './styles';
+import * as S from "./styles";
 
 function CandidatesList() {
-  return(
-    <S.Card>
-      Lista de Candidatos
-      </S.Card>
-
-  ) ;
+  return (
+  <S.Card>
+    <h4><b>Lista de Candidatos</b></h4> 
+    </S.Card>
+    );
 }
 
 export default CandidatesList;

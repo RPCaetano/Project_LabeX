@@ -13,10 +13,10 @@ function TripListPage() {
       <section>
         
         <Link to={"/viagens/detalhe"}>
-        <p>Viagem para Marte<img src={lupa} alt="lupa"></img></p> 
-        <p>Viagem para Lua<img src={detail} alt="lupa"></img></p> 
-        <p>Viagem para Sol</p> 
-        <p>Viagem para Jupter<img src={lupa} alt="lupa"></img></p> 
+        <p><img src={detail} alt="lupa"></img>Viagem para Marte</p> 
+        <p><img src={detail} alt="lupa"></img>Viagem para Lua</p> 
+        <p><img src={detail} alt="lupa"></img>Viagem para Sol</p> 
+        <p><img src={detail} alt="lupa"></img>Viagem para Jupter</p> 
         </Link>
       </section>
       <section>

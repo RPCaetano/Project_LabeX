@@ -1,7 +1,7 @@
 import React from 'react';
 import PageTitle from '../../components/PageTitle';
 import CandidatesList from './CandidatesList';
-import TripInfo from './TripInfo';
+import TripInfo from './TripInfoCard';
 import * as S from './styles'
 
 
