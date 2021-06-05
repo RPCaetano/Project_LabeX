@@ -6,11 +6,12 @@ const GlobalStyle = createGlobalStyle`
     margin:0;
     padding: 0;
     box-sizing:border-box ;
+    
    
 }
 :root{
 --white:#fff;
---background:#d8e3e7;
+--background:black;
 --footer:black;
 --header:black;
 --title:#aaaaaa;
@@ -27,7 +28,7 @@ html{
         }
     }
 body{
-    background-color:var(--background) ;
+    background-color:var(--background);
     color:var(--text);
 }
 body,input,textarea,button{
@@ -41,7 +42,10 @@ a{
     text-decoration:none;
 }
 h1{
-    font:600 16px "Akaya Telivigala"
+    font:600 16px "Akaya Telivigala";
+    color:var(--title)
+    
+    
 }
 `
 export default GlobalStyle

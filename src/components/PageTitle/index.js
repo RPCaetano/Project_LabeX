@@ -1,10 +1,9 @@
 import React from 'react';
-
-// import { Container } from './styles';
+import * as S from './styles';
 
 function PageTitle(props) {
   return (
-  <h1>{props.title}</h1>
+  <S.Title>{props.title}</S.Title>
   );
 }
 

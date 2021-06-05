@@ -1,12 +1,21 @@
 import React from 'react';
-import aceitar from "../../assets/aceitar.png"
-import rejeitar from "../../assets/rejeitar.png"
+import checked from "../../assets/checked.png"
+import cancel from "../../assets/cancel.png"
 // import { Container } from './styles';
 
 const CandidateItem=(props)=> {
+  const approveCandidate = () => {
+    props.decideCandidate(true, props.candidate.id)
+  }
+
+  const rejectCandidate = () => {
+    props.decideCandidate(false, props.candidate.id)
+  }
+
   return(
   <div>
-  <img src={aceitar}/>  <img src={rejeitar}/>  <strong>{props.infoName}</strong>
+   
+  <img src={checked} onClick={approveCandidate}/>  <img src={cancel} onClick={rejectCandidate}/>  <strong>{props.candidate.name}</strong>
 
   </div>
   );

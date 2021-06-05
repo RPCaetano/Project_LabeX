@@ -1,13 +1,19 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
- display:flex;
- text-align:center;
+
+
  
  h1{
-    color:var(--title)
+   text-align:center;
+    color:var(--title);
+    font-size:30px;
  } 
  p{
-    color:var(--text)
+    margin-left:50px;
+    margin-right:50px;
+    text-align:justify;
+    color:var(--text);
+    font-size:20px;
  }
 `;

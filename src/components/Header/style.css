@@ -1,12 +1,13 @@
 
 #menu {
+ 
     width:35px;
     height:30px;
-    margin:50px 0 20px 20px;
+    margin:50px 0 20px 1270px; 
     cursor:pointer;
     }
     .bar{
-        height:5px;
+        height:10px;
         width:100%;
         background-color:orange;
         display:block;
@@ -20,6 +21,7 @@
         transform:translateY(4px);
     }
     .nav li a{
+        
         color:black;
         text-decoration:none;
     }
@@ -27,12 +29,14 @@
         font-weight:bold;
     }
     .nav li{
+      
         list-style:none;
-        padding:16px 0 ;
+        padding:10px 20px ;
     }
     .nav{
-        padding:0;
-        margin:0 20px;
+        
+        padding:10px;
+        margin:0 1160px;
         transition: 0.3s ease;
         display:none;
     }
@@ -56,7 +60,7 @@
     .change-bg{
         width:550px;
         height:540px;
-        transform:translate(-60%,-30%);
+        transform:translate(195%,-30%);
     }
     .change .bar{
         background-color:orange;

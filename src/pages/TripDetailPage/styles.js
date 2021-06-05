@@ -4,30 +4,50 @@ export const Container = styled.div`
   
   display:flex;
   justify-content:space-around;
+  h1{
+    text-align:center;
+  }
 `;
 
+
 export const Card = styled.div`
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   margin-left:20px;
+   padding:10px;
+    box-shadow: 8px 8px 8px 8px yellow;
     transition: 0.3s;
-    width: 320px;
-    min-height:270px;
-    padding-bottom:10px;
-    height:auto;
-    background:yellow;
-    cursor:pointer;
-     & :hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
-    
-  }
-  img{
-   width:18px;
-   height:18px;
-   
- } `;
+    width: 450px;
+    min-height: 270px;
+    padding-bottom: 10px;
+    height: 50px;
+    background: black;
+    cursor: pointer;
+    :hover{
+        box-shadow: 8px 8px 16px 8px yellow;
+    }
+    img{
+      width:18px;
+      height:18px;
+     
+    }
+    h3{
+         color: var(--title);
+         font-size: 18px;
+         text-align:center;
+         
+     }
+`;
+
   
 
   export const Info = styled.div`
-  margin: 28px;
- h4, p{
-  padding: 2px 16px;
- } `
+ margin: 20px;
+     p{
+        font-size:18px;
+        margin: 10px;
+     }
+     h3{
+         color: var(--title);
+         font-size: 20px;
+         
+     }
+`;

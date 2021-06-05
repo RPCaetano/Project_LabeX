@@ -17,7 +17,7 @@ function Routes() {
     <Route exact path='/login'>
     <LoginPage/>
     </Route>
-    <Route path='/viagens/detalhe'>
+    <Route path='/viagens/detalhe/:tripId'>
     <TripDetailPage/>
     </Route>
     <Route path='/viagens/criar'>

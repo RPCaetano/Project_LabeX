@@ -2,17 +2,20 @@ import React from 'react';
 import * as S from './styles';
 import viagem from '../../assets/viagem.png'
 import TripInfoItem from './TripInfoItem'
+import PageTitle from "../../components/PageTitle";
 
 function TripInfoCard(props) {
+  const {name, planet, description, date, durationInDays} = props.info
   return (
       <S.Card>
     
-      <h4><b>Informações da viagem</b></h4> 
-     <TripInfoItem infoName={'Nome'}info={'Viagem para Marte'}/>
-     <TripInfoItem infoName={'Planeta'}info={'Marte'}/>
-     <TripInfoItem infoName={'Data'}info={'01/07/2021'}/>
-     <TripInfoItem infoName={'Descrição'}info={'Viagem legal para colonizar Marte'}/>
-     <TripInfoItem infoName={'Duração em dias'}info={'250'}/>
+    <h3>Informações da viagem<hr></hr></h3>
+
+     <TripInfoItem infoName={'Nome'}info={name}/>
+     <TripInfoItem infoName={'Planeta'}info={planet}/>
+     <TripInfoItem infoName={'Data'}info={date}/>
+     <TripInfoItem infoName={'Descrição'}info={description}/>
+     <TripInfoItem infoName={'Duração em dias'}info={durationInDays}/>
      
      
     </S.Card>

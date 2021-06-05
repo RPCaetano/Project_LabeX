@@ -11,7 +11,7 @@ function App() {
      <GlobalStyle />
      <Header/>
      <Routes/>
-     <Footer/>
+     {/* <Footer/> */}
     </BrowserRouter>
   );
 }
