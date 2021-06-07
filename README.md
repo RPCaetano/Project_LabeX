@@ -1,3 +1,4 @@
+
 # Project_LabeX
 Sobre o Projeto
 Projeto criado durante o curso realizado na Labenu, encontre as melhores viagens intergaláticas, aperte o cinto e vamos nessa!
@@ -28,3 +29,4 @@ npm install
 Execute a aplicação
 npm start
 A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
