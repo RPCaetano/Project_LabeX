@@ -5,12 +5,13 @@ export const Container = styled.div`
   flex-direction:column;
   padding:16px;
   margin:20px;
+  align-items:center ;
 
   h1{
       text-align: center;
   }
   img{
-      
+      margin-right:5px;
       width:25px;
       height:25px;
       &:hover{
@@ -19,21 +20,25 @@ export const Container = styled.div`
         }
   }
   button{
-    display: block;
-    min-width: 120px;
     border: none;
-    background-color: black;
+    background-color: orangered;
     color:var(--text);
     border-radius: 25px;
-    margin: auto;
     padding: 7px;
-    &:hover{
-          width:40px;
-          height:40px;
-          color:var(--text);  
-          background-color:orangered;
-}
+  }    
   p{
     color:var(--text);
   }
-`;
+  a{
+    text-decoration:none;
+  }
+`
+export const List= styled.div`
+display:flex;
+flex-direction:column;
+`
+export const Buttom= styled.div`
+display:flex;
+justify-content:space-between;
+width:90vw;
+`

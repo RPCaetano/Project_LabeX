@@ -9,6 +9,5 @@ export const useTripslist = () => {
       setTrips(response.data.trips)
     })
   }, [])
-
   return trips
 }

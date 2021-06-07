@@ -59,7 +59,13 @@ const ApplicationPage = () => {
           </div>
           <div class="input-block">
             <label for="age">Idade</label>
-            <input onChange={onChangeInput} value={form["age"]} name={"age"} />
+            <input
+              type="number"
+              min="18"
+              onChange={onChangeInput}
+              value={form["age"]}
+              name={"age"}
+            />
           </div>
           <div class="input-block">
             <label for="text">Texto de aplicação</label>
@@ -98,14 +104,12 @@ const ApplicationPage = () => {
           <div class="input-block">
             <label for="">Viagens</label>
             <p></p>
-
             <select onChange={onChangeInput} value={form["trip"]} name={"trip"}>
               {trips.map((trip) => {
                 return <option value={trip}>{trip.name}</option>;
               })}
             </select>
           </div>
-
           <button type={"submit"} class="btn-login">
             Enviar
           </button>
